@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding:10px ;
+}
+.main-content{
+    display: flex;
+
+}
+.sidebar{
+    flex: 1;
+}
+.main{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(235, 243, 243);
+    margin: 10px;
+    height: 170px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.sidebar{
+    background-color: rgb(184, 184, 184);
+}
+.footer{
+    background-color: gray;
+    text-align: center;
+    padding:10px ;
+}
+p{
+    margin-left: 10PX;
+}
